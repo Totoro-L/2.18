@@ -1,0 +1,207 @@
+/*CSS*/
+body{
+     width:100%;
+	 height:100%;
+	 margin:0;
+	 overflow-x:hidden;
+}
+a{
+	 text-decoration:none;
+}
+/*顶层*/
+.top{
+     height:120px;
+	 width:1000px;
+	 margin:0 auto;
+}
+.top span{
+	 display:inline-block;
+}
+.top img{
+	 vertical-align:middle;
+	 padding-top:18px;
+}
+.top1{
+	 margin-right:50px;
+}
+.top2{
+	 margin-right:80px;
+}
+/*菜单选择*/
+.menu{
+	 background-color:#10a14a;
+	 height:49px;
+	 width:100%;
+	 text-align:center;
+}
+.menu a{
+	 line-height:49px;
+	 color:white;
+	 display:inline-block;
+	 width:120px;
+}
+.menu-one{
+	 background-color:#0d803b;
+}
+/*标语*/
+.banner{
+	background-image:url("images/banner/background.png");
+	width:100%;
+	height:588px;
+}
+.banner img{
+	 margin-left:181px;
+	 margin-top:168px;
+}
+/*解决方案*/
+.solve{
+	 height:320px;
+	 text-align:center;
+	 background-color:#f6f6f6;
+}
+.solve a{
+	 display:inline-block;
+	 width:210px;
+	 height:175px;
+	 margin-top:50px;
+}
+/*公司介绍*/
+.introduct img{
+	 width:100%;
+}
+/*应用领域*/
+.more{
+	 display:inline-block;
+	 padding:61px 0 25px 0;
+} 
+.more img{
+	 vertical-align:middle;
+}
+.more a{
+	 color:#ffad54;
+}
+.center{
+	 text-align:center;
+}
+/*经典案例*/
+.center3 ul{
+	 height:112px;
+	 width:75px;
+	 margin:0 auto;
+	 padding-top:44px;
+}
+.center3 ul li{
+	 float:left;
+	 width:25px;
+	 height:70px;
+	 text-align:center;
+	 font-size:50px;
+}
+.center3 ul .li1{
+	 color:#12b681;
+}
+.center3 ul .li2,.li3{
+	 color:#bfbfbf;
+}
+/*图片居中*/
+.team img,.contact img,.bottom img{
+	 width:100%;
+	 text-align:center;	 
+}
+/*新闻*/
+.news{
+	text-align:center;
+}
+.news-photo{
+	position:relative;
+	width:100%;
+	height:100%;
+}
+.news-photo .span2{
+	position:absolute;
+	bottom:3px;
+	right:412px;
+}
+.news-photo .span1{
+	position:absolute;
+	bottom:3px;
+	left:347px;
+}
+.news-photo a{
+	text-align:center;
+    font-family:Arial;
+	color:#81c395;
+}
+.news-photo img{
+	width:450px;
+	height:140px;
+}
+.photo1,.photo2{
+    padding:0 46px 0 32px;
+}
+.news-photo .photo1{
+	border-right:1px solid #d9d9d9;
+}
+/*联系*/
+.contact{
+	background-image:url("images/call.png");
+	background-size:100% 400px;
+	height:370px;
+	margin-top:90px;
+}
+.contact form{
+	width:350px;
+	margin-left:260px;
+	padding-top:115px;
+}
+.contact-form,.contact-button{
+	float:left;
+	width:350px;
+	border: 1px solid #787878;
+    margin-right: -1px;
+    margin-bottom: -1px;
+}
+.contact input{
+	height:30px;
+}
+.contact textarea{
+	height:90px;
+	overflow:auto;
+    font-family:微软雅黑;
+    line-height:30px;	
+}
+.contact-button{
+	width:354px;
+	background-color:#f29400;
+	color:white;
+}
+/*底部*/
+.bottom{
+	background-color:#333333;
+	text-align:center;
+	color:white;
+	border:1px solid #333333;
+	font-size:small;
+}
+.bottom ul{
+	list-style-type:none;
+	width:100%; 
+	height:60px; 
+	text-align:center;
+	margin:0;
+}
+.bottom ul li{
+	display:inline;
+	width:90px;
+    line-height:80px;
+	margin-right:40px;
+}
+.bottom a{
+	color:white;
+}
+
+
+
+
+
+
